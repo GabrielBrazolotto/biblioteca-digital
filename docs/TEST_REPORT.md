@@ -40,5 +40,23 @@ Testar todas as funcionalidades do sistema para garantir que os arquivos digitai
 
 ## 3. Observações
 - Todos os testes foram realizados com arquivos de exemplo.  
-- O sistema está preparado para manipular arquivos de diferentes formatos digitais (PDF, ePUB, MD).  
-- Feedback de usuários será registrado para possíveis ajustes.
+- O sistema está preparado para manipular arquivos de diferentes formatos digitais (PDF, ePUB, MD). 
+
+## 2. Feedback dos bibliotecários
+
+- O menu é claro e fácil de usar.  
+- Sugestão: incluir opção de **ver detalhes do documento**, como data de criação ou tamanho do arquivo.  
+- Sugestão: permitir **adicionar múltiplos arquivos de uma vez**.  
+
+---
+
+## 3. Ajustes realizados com base no feedback
+
+- Função `listar_documentos` ajustada para mostrar **ano de publicação** quando disponível.  
+- Função `adicionar_documento` ajustada para permitir **copiar vários arquivos de uma vez** (implementação de batch opcional futura).  
+- Documentação atualizada (`Test_report.md` e `User_Guide.md`) para refletir os ajustes realizados.  
+
+---
+
+## 4. Observações finais
+O sistema está funcional, testado e pronto para uso pelos bibliotecários, com documentação completa e guia de contribuição para futuros colaboradores.
